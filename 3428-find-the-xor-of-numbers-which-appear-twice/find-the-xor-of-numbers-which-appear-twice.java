@@ -9,9 +9,6 @@ class Solution {
             if(entry.getValue().equals(2)){
                 r = r ^ entry.getKey();
             }
-            // if (entry.getKey().equals("Apple")) {
-            //     entry.setValue(entry.getValue() + 5); // Safely update value
-            // }
         }
         return r;
     }
