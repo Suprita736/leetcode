@@ -22,12 +22,6 @@ class Solution {
         getMin(root, r.right);
         return;
     }
-    // public void getMinright(TreeNode root, TreeNode l){
-    //     if(l == null) return;
-    //     min = Math.min(min, Math.abs(root.val - l.val));
-    //     getMinleft(root, l.right);
-    //     return;
-    // }
     public int getMinimumDifference(TreeNode root) {
         if(root == null) return min;
         getMin(root, root.left);
